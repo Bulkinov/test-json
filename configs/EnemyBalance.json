@@ -1,0 +1,327 @@
+{
+  "Version": 1,
+  "SellPriceMultiplier": 100,
+  "Upgrade": {
+    "Defaults": {
+      "IncomeMultiplierPerLevel": 1.5,
+      "CapMultiplierPerLevel": 1.5,
+      "CostBase": 50,
+      "CostGrowthPerLevel": 2.5,
+      "CostMassExponent": 0.2
+    }
+  },
+  "Defaults": {
+    "BaseHp": 100,
+    "HpExponent": 1.2,
+    "BaseKillReward": 10,
+    "KillRewardExponent": 1.3,
+    "BaseIncome": 1,
+    "IncomeExponent": 1.5
+  },
+  "Enemies": {
+    "enemy_toilet": {
+      "BaseHp": 100,
+      "HpExponent": 1.5,
+      "BaseKillReward": 10,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.1,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.1,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_toilet2": {
+      "BaseHp": 200,
+      "HpExponent": 1.5,
+      "BaseKillReward": 15,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.2,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.1,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_toilet3": {
+      "BaseHp": 300,
+      "HpExponent": 1.5,
+      "BaseKillReward": 20,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.5,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 3,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.12,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.23,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_shrimp": {
+      "BaseHp": 400,
+      "HpExponent": 1.5,
+      "BaseKillReward": 25,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.1,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.1,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_shrimp2": {
+      "BaseHp": 500,
+      "HpExponent": 1.5,
+      "BaseKillReward": 30,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.2,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.1,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_shrimp3": {
+      "BaseHp": 600,
+      "HpExponent": 1.5,
+      "BaseKillReward": 35,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.3,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.25,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_crocodile": {
+      "BaseHp": 700,
+      "HpExponent": 1.5,
+      "BaseKillReward": 40,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.1,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.1,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_crocodile2": {
+      "BaseHp": 800,
+      "HpExponent": 1.5,
+      "BaseKillReward": 45,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.2,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.1,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_crocodile3": {
+      "BaseHp": 900,
+      "HpExponent": 1.5,
+      "BaseKillReward": 50,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.3,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.25,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_pork": {
+      "BaseHp": 1000,
+      "HpExponent": 1.5,
+      "BaseKillReward": 55,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.1,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.1,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_pork2": {
+      "BaseHp": 1100,
+      "HpExponent": 1.5,
+      "BaseKillReward": 60,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.2,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.1,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_pork3": {
+      "BaseHp": 1200,
+      "HpExponent": 1.5,
+      "BaseKillReward": 65,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.3,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.3,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_shark": {
+      "BaseHp": 1300,
+      "HpExponent": 1.5,
+      "BaseKillReward": 70,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.1,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.1,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_shark2": {
+      "BaseHp": 1400,
+      "HpExponent": 1.5,
+      "BaseKillReward": 75,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.2,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.1,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_shark3": {
+      "BaseHp": 1500,
+      "HpExponent": 1.5,
+      "BaseKillReward": 80,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.3,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.3,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_SeagullCar": {
+      "BaseHp": 1600,
+      "HpExponent": 1.5,
+      "BaseKillReward": 85,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.1,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.1,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_seagullcar1": {
+      "BaseHp": 1700,
+      "HpExponent": 1.5,
+      "BaseKillReward": 90,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.1,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.1,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_seagullcar2": {
+      "BaseHp": 1800,
+      "HpExponent": 1.5,
+      "BaseKillReward": 95,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.2,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.1,
+        "CostMassExponent": 0.2
+      }
+    },
+    "enemy_seagullcar3": {
+      "BaseHp": 1900,
+      "HpExponent": 1.5,
+      "BaseKillReward": 100,
+      "KillRewardExponent": 1.3,
+      "BaseIncome": 0.3,
+      "IncomeExponent": 1.1,
+      "StorageMinutes": 2,
+      "Upgrade": {
+        "IncomeMultiplierPerLevel": 1.1,
+        "CapMultiplierPerLevel": 1.5,
+        "CostBase": 50,
+        "CostGrowthPerLevel": 1.5,
+        "CostMassExponent": 0.2
+      }
+    }
+  }
+}
