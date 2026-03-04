@@ -1,0 +1,3705 @@
+{
+  "Version": 1,
+  "FirstWaveDelaySeconds": 5,
+  "DefaultSpawnWindowSeconds": 5,
+  "DefaultNextWaveDelaySeconds": 2,
+  "Waves": [
+    {
+      "WaveNumber": 1,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 10,
+      "NextWaveDelaySeconds": 10,
+      "Rewards": {
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Strawberry",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_toilet",
+          "Count": 1,
+          "Mass": 2
+        }
+      ]
+    },
+    {
+      "WaveNumber": 2,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 5,
+      "NextWaveDelaySeconds": 10,
+      "Rewards": {
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Strawberry",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_toilet",
+          "Count": 2,
+          "Mass": 3
+        }
+      ]
+    },
+    {
+      "WaveNumber": 3,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 7,
+      "NextWaveDelaySeconds": 10,
+      "Rewards": {
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Strawberry",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_toilet",
+          "Count": 3,
+          "Mass": 4
+        }
+      ]
+    },
+    {
+      "WaveNumber": 4,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 10,
+      "NextWaveDelaySeconds": 20,
+      "Rewards": {
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Strawberry",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_toilet",
+          "Count": 4,
+          "Mass": 5
+        }
+      ]
+    },
+    {
+      "WaveNumber": 5,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 2,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Gold": 1000,
+        "Buckets": [],
+        "Weapons": []
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_toilet3",
+          "Count": 1,
+          "Mass": 10
+        }
+      ]
+    },
+    {
+      "WaveNumber": 6,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 20,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [
+          {
+            "BucketId": "WaterBucket_T2",
+            "Count": 2
+          }
+        ],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Limon",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp",
+          "Count": 6,
+          "Mass": 4
+        }
+      ]
+    },
+    {
+      "WaveNumber": 7,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 10,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [
+          {
+            "BucketId": "WaterBucket_T3",
+            "Count": 2
+          }
+        ],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Limon",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp",
+          "Count": 7,
+          "Mass": 5
+        }
+      ]
+    },
+    {
+      "WaveNumber": 8,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 30,
+      "NextWaveDelaySeconds": 20,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [
+          {
+            "BucketId": "WaterBucket_T4",
+            "Count": 1
+          }
+        ],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Limon",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp",
+          "Count": 8,
+          "Mass": 6
+        }
+      ]
+    },
+    {
+      "WaveNumber": 9,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 30,
+      "NextWaveDelaySeconds": 20,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [
+          {
+            "BucketId": "WaterBucket_T1",
+            "Count": 5
+          }
+        ],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Limon",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp",
+          "Count": 9,
+          "Mass": 8
+        }
+      ]
+    },
+    {
+      "WaveNumber": 10,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 2,
+      "NextWaveDelaySeconds": 50,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 30
+        }
+      ]
+    },
+    {
+      "WaveNumber": 11,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 15,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Cherry",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile",
+          "Count": 10,
+          "Mass": 15
+        }
+      ]
+    },
+    {
+      "WaveNumber": 12,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 15,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Cherry",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile",
+          "Count": 10,
+          "Mass": 16
+        }
+      ]
+    },
+    {
+      "WaveNumber": 13,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 15,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Cherry",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile",
+          "Count": 10,
+          "Mass": 17
+        }
+      ]
+    },
+    {
+      "WaveNumber": 14,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Cherry",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile",
+          "Count": 10,
+          "Mass": 18
+        }
+      ]
+    },
+    {
+      "WaveNumber": 15,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 2,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "Buckets": [
+          {
+            "BucketId": "WaterBucket_T4",
+            "Count": 1
+          }
+        ],
+        "Weapons": []
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 1,
+          "Mass": 100
+        }
+      ]
+    },
+    {
+      "WaveNumber": 16,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 10,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Mango",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_pork",
+          "Count": 10,
+          "Mass": 20
+        }
+      ]
+    },
+    {
+      "WaveNumber": 17,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 10,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Mango",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_pork",
+          "Count": 10,
+          "Mass": 21
+        }
+      ]
+    },
+    {
+      "WaveNumber": 18,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 10,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Mango",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_pork",
+          "Count": 10,
+          "Mass": 22
+        }
+      ]
+    },
+    {
+      "WaveNumber": 19,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 40,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Mango",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_pork",
+          "Count": 10,
+          "Mass": 23
+        }
+      ]
+    },
+    {
+      "WaveNumber": 20,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 2,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "Buckets": [
+          {
+            "BucketId": "WaterBucket_T4",
+            "Count": 1
+          }
+        ],
+        "Weapons": []
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_pork3",
+          "Count": 1,
+          "Mass": 150
+        }
+      ]
+    },
+    {
+      "WaveNumber": 21,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 9,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Grape",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 30
+        }
+      ]
+    },
+    {
+      "WaveNumber": 22,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 9,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Grape",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 31
+        }
+      ]
+    },
+    {
+      "WaveNumber": 23,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 9,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Grape",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 32
+        }
+      ]
+    },
+    {
+      "WaveNumber": 24,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Grape",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 33
+        }
+      ]
+    },
+    {
+      "WaveNumber": 25,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 2,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "Buckets": [
+          {
+            "BucketId": "WaterBucket_T4",
+            "Count": 1
+          }
+        ],
+        "Weapons": []
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 1,
+          "Mass": 150
+        }
+      ]
+    },
+    {
+      "WaveNumber": 26,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 8,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Watermelon",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 20
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 20
+        }
+      ]
+    },
+    {
+      "WaveNumber": 27,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 8,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Watermelon",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 21
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 21
+        }
+      ]
+    },
+    {
+      "WaveNumber": 28,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 8,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Watermelon",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 22
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 22
+        }
+      ]
+    },
+    {
+      "WaveNumber": 29,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Watermelon",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 23
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 23
+        }
+      ]
+    },
+    {
+      "WaveNumber": 30,
+      "WaveType": "Boss",
+      "BossTier": 1,
+      "SpawnWindowSeconds": 2,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "Buckets": [
+          {
+            "BucketId": "WaterBucket_T4",
+            "Count": 1
+          }
+        ],
+        "Weapons": []
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 1,
+          "Mass": 200
+        }
+      ]
+    },
+    {
+      "WaveNumber": 31,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Banana",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 40
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 40
+        }
+      ]
+    },
+    {
+      "WaveNumber": 32,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Banana",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 50
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 50
+        }
+      ]
+    },
+    {
+      "WaveNumber": 33,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Banana",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 50
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 50
+        }
+      ]
+    },
+    {
+      "WaveNumber": 34,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Banana",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 60
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 60
+        }
+      ]
+    },
+    {
+      "WaveNumber": 35,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 2,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "Buckets": [
+          {
+            "BucketId": "WaterBucket_T4",
+            "Count": 1
+          }
+        ],
+        "Weapons": []
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 1,
+          "Mass": 250
+        }
+      ]
+    },
+    {
+      "WaveNumber": 36,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Buckets": [],
+        "Weapons": [
+          {
+            "WeaponId": "Weapon_Banana",
+            "Count": 1
+          }
+        ]
+      },
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 50
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 50
+        },
+        {
+          "EnemyId": "enemy_pork3",
+          "Count": 10,
+          "Mass": 50
+        }
+      ]
+    },
+    {
+      "WaveNumber": 37,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 55
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 55
+        },
+        {
+          "EnemyId": "enemy_pork3",
+          "Count": 10,
+          "Mass": 55
+        }
+      ]
+    },
+    {
+      "WaveNumber": 38,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 60
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 60
+        },
+        {
+          "EnemyId": "enemy_pork3",
+          "Count": 10,
+          "Mass": 60
+        }
+      ]
+    },
+    {
+      "WaveNumber": 39,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 65
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 65
+        },
+        {
+          "EnemyId": "enemy_pork3",
+          "Count": 10,
+          "Mass": 65
+        }
+      ]
+    },
+    {
+      "WaveNumber": 40,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 1,
+          "Mass": 400
+        }
+      ]
+    },
+    {
+      "WaveNumber": 41,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 65
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 65
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 65
+        }
+      ]
+    },
+    {
+      "WaveNumber": 42,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 70
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 70
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 70
+        }
+      ]
+    },
+    {
+      "WaveNumber": 43,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 75
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 75
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 75
+        }
+      ]
+    },
+    {
+      "WaveNumber": 44,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 80
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 80
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 80
+        }
+      ]
+    },
+    {
+      "WaveNumber": 45,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 1,
+          "Mass": 700
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 1,
+          "Mass": 1000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 46,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 95
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 95
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 95
+        },
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 130
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 130
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 130
+        }
+      ]
+    },
+    {
+      "WaveNumber": 47,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 100
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 100
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 100
+        },
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 140
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 140
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 140
+        }
+      ]
+    },
+    {
+      "WaveNumber": 48,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 110
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 110
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 110
+        },
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 150
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 150
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 150
+        }
+      ]
+    },
+    {
+      "WaveNumber": 49,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 120
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 120
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 120
+        },
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 160
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 160
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 160
+        }
+      ]
+    },
+    {
+      "WaveNumber": 50,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 1,
+          "Mass": 1550
+        }
+      ]
+    },
+    {
+      "WaveNumber": 51,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 170
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 170
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 170
+        }
+      ]
+    },
+    {
+      "WaveNumber": 52,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 180
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 180
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 180
+        }
+      ]
+    },
+    {
+      "WaveNumber": 53,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 190
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 190
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 190
+        }
+      ]
+    },
+    {
+      "WaveNumber": 54,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 200
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 200
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 200
+        }
+      ]
+    },
+    {
+      "WaveNumber": 55,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 1,
+          "Mass": 2000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 56,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 220
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 220
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 220
+        }
+      ]
+    },
+    {
+      "WaveNumber": 57,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 250
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 250
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 250
+        }
+      ]
+    },
+    {
+      "WaveNumber": 58,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 270
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 270
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 270
+        }
+      ]
+    },
+    {
+      "WaveNumber": 59,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 290
+        },
+        {
+          "EnemyId": "enemy_seagullcar1",
+          "Count": 10,
+          "Mass": 290
+        },
+        {
+          "EnemyId": "enemy_shark",
+          "Count": 10,
+          "Mass": 290
+        }
+      ]
+    },
+    {
+      "WaveNumber": 60,
+      "WaveType": "Boss",
+      "BossTier": 1,
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_toilet3",
+          "Count": 1,
+          "Mass": 10000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 61,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 300
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 300
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 300
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 300
+        }
+      ]
+    },
+    {
+      "WaveNumber": 62,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 320
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 320
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 320
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 320
+        }
+      ]
+    },
+    {
+      "WaveNumber": 63,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 340
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 340
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 340
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 340
+        }
+      ]
+    },
+    {
+      "WaveNumber": 64,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 380
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 380
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 380
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 380
+        }
+      ]
+    },
+    {
+      "WaveNumber": 65,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 7500
+        }
+      ]
+    },
+    {
+      "WaveNumber": 66,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 400
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 400
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 400
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 400
+        }
+      ]
+    },
+    {
+      "WaveNumber": 67,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 440
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 440
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 440
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 440
+        }
+      ]
+    },
+    {
+      "WaveNumber": 68,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 480
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 480
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 480
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 480
+        }
+      ]
+    },
+    {
+      "WaveNumber": 69,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 520
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 520
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 520
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 520
+        }
+      ]
+    },
+    {
+      "WaveNumber": 70,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 10000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 71,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 550
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 550
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 550
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 550
+        }
+      ]
+    },
+    {
+      "WaveNumber": 72,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 570
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 570
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 570
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 570
+        }
+      ]
+    },
+    {
+      "WaveNumber": 73,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 600
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 600
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 600
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 600
+        }
+      ]
+    },
+    {
+      "WaveNumber": 74,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 630
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 630
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 630
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 630
+        }
+      ]
+    },
+    {
+      "WaveNumber": 75,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 12000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 76,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 650
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 650
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 650
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 650
+        }
+      ]
+    },
+    {
+      "WaveNumber": 77,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 670
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 670
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 670
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 670
+        }
+      ]
+    },
+    {
+      "WaveNumber": 78,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 700
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 700
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 700
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 700
+        }
+      ]
+    },
+    {
+      "WaveNumber": 79,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 720
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 720
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 720
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 720
+        }
+      ]
+    },
+    {
+      "WaveNumber": 80,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 15000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 81,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 750
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 750
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 750
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 750
+        }
+      ]
+    },
+    {
+      "WaveNumber": 82,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 770
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 770
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 770
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 770
+        }
+      ]
+    },
+    {
+      "WaveNumber": 83,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 800
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 800
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 800
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 800
+        }
+      ]
+    },
+    {
+      "WaveNumber": 84,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 820
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 820
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 820
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 820
+        }
+      ]
+    },
+    {
+      "WaveNumber": 85,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 16000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 86,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 850
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 850
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 850
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 850
+        }
+      ]
+    },
+    {
+      "WaveNumber": 87,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 870
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 870
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 870
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 870
+        }
+      ]
+    },
+    {
+      "WaveNumber": 88,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 900
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 900
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 900
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 900
+        }
+      ]
+    },
+    {
+      "WaveNumber": 89,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 1000
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 1000
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 1000
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 1000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 90,
+      "WaveType": "Boss",
+      "BossTier": 1,
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 25000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 91,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 1100
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 1100
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 1100
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 1100
+        }
+      ]
+    },
+    {
+      "WaveNumber": 92,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 1200
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 1200
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 1200
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 1200
+        }
+      ]
+    },
+    {
+      "WaveNumber": 93,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 1300
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 1300
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 1300
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 1300
+        }
+      ]
+    },
+    {
+      "WaveNumber": 94,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 1400
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 1400
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 1400
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 1400
+        }
+      ]
+    },
+    {
+      "WaveNumber": 95,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 30000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 96,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 1510
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 1510
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 1510
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 1510
+        }
+      ]
+    },
+    {
+      "WaveNumber": 97,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 1620
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 1620
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 1620
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 1620
+        }
+      ]
+    },
+    {
+      "WaveNumber": 98,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 1730
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 1730
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 1730
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 1730
+        }
+      ]
+    },
+    {
+      "WaveNumber": 99,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 1840
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 1840
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 1840
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 1840
+        }
+      ]
+    },
+    {
+      "WaveNumber": 100,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 40000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 101,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 2000
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 2000
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 2000
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 2000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 102,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 2150
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 2150
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 2150
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 2150
+        }
+      ]
+    },
+    {
+      "WaveNumber": 103,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 2300
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 2300
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 2300
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 2300
+        }
+      ]
+    },
+    {
+      "WaveNumber": 104,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 2450
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 2450
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 2450
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 2450
+        }
+      ]
+    },
+    {
+      "WaveNumber": 105,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 50000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 106,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 2600
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 2600
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 2600
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 2600
+        }
+      ]
+    },
+    {
+      "WaveNumber": 107,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 2750
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 2750
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 2750
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 2750
+        }
+      ]
+    },
+    {
+      "WaveNumber": 108,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 2900
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 2900
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 2900
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 2900
+        }
+      ]
+    },
+    {
+      "WaveNumber": 109,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 3050
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 3050
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 3050
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 3050
+        }
+      ]
+    },
+    {
+      "WaveNumber": 110,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 60000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 111,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 3100
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 3100
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 3100
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 3100
+        }
+      ]
+    },
+    {
+      "WaveNumber": 112,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 3250
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 3250
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 3250
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 3250
+        }
+      ]
+    },
+    {
+      "WaveNumber": 113,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 3400
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 3400
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 3400
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 3400
+        }
+      ]
+    },
+    {
+      "WaveNumber": 114,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 3550
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 3550
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 3550
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 3550
+        }
+      ]
+    },
+    {
+      "WaveNumber": 115,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 70000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 116,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 3700
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 3700
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 3700
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 3700
+        }
+      ]
+    },
+    {
+      "WaveNumber": 117,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 3850
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 3850
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 3850
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 3850
+        }
+      ]
+    },
+    {
+      "WaveNumber": 118,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 4000
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 4000
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 4000
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 4000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 119,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 4150
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 4150
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 4150
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 4150
+        }
+      ]
+    },
+    {
+      "WaveNumber": 120,
+      "WaveType": "Boss",
+      "BossTier": 1,
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 100000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 121,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 4500
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 4500
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 4500
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 4500
+        }
+      ]
+    },
+    {
+      "WaveNumber": 122,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 4700
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 4700
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 4700
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 4700
+        }
+      ]
+    },
+    {
+      "WaveNumber": 123,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 4900
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 4900
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 4900
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 4900
+        }
+      ]
+    },
+    {
+      "WaveNumber": 124,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 5100
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 5100
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 5100
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 5100
+        }
+      ]
+    },
+    {
+      "WaveNumber": 125,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 95000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 126,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 5300
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 5300
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 5300
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 5300
+        }
+      ]
+    },
+    {
+      "WaveNumber": 127,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 5500
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 5500
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 5500
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 5500
+        }
+      ]
+    },
+    {
+      "WaveNumber": 128,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 5700
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 5700
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 5700
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 5700
+        }
+      ]
+    },
+    {
+      "WaveNumber": 129,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 5900
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 5900
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 5900
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 5900
+        }
+      ]
+    },
+    {
+      "WaveNumber": 130,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 120000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 131,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 6200
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 6200
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 6200
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 6200
+        }
+      ]
+    },
+    {
+      "WaveNumber": 132,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 6400
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 6400
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 6400
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 6400
+        }
+      ]
+    },
+    {
+      "WaveNumber": 133,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 6600
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 6600
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 6600
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 6600
+        }
+      ]
+    },
+    {
+      "WaveNumber": 134,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 6800
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 6800
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 6800
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 6800
+        }
+      ]
+    },
+    {
+      "WaveNumber": 135,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 130000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 136,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 7100
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 7100
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 7100
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 7100
+        }
+      ]
+    },
+    {
+      "WaveNumber": 137,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 7300
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 7300
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 7300
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 7300
+        }
+      ]
+    },
+    {
+      "WaveNumber": 138,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 7500
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 7500
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 7500
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 7500
+        }
+      ]
+    },
+    {
+      "WaveNumber": 139,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 7700
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 7700
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 7700
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 7700
+        }
+      ]
+    },
+    {
+      "WaveNumber": 140,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 150000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 141,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 8000
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 8000
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 8000
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 8000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 142,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 8300
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 8300
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 8300
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 8300
+        }
+      ]
+    },
+    {
+      "WaveNumber": 143,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 8600
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 8600
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 8600
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 8600
+        }
+      ]
+    },
+    {
+      "WaveNumber": 144,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 8900
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 8900
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 8900
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 8900
+        }
+      ]
+    },
+    {
+      "WaveNumber": 145,
+      "WaveType": "MiniBoss",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 200000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 146,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 10000
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 10000
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 10000
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 10000
+        }
+      ]
+    },
+    {
+      "WaveNumber": 147,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 10300
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 10300
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 10300
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 10300
+        }
+      ]
+    },
+    {
+      "WaveNumber": 148,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 10600
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 10600
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 10600
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 10600
+        }
+      ]
+    },
+    {
+      "WaveNumber": 149,
+      "WaveType": "Normal",
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_crocodile3",
+          "Count": 10,
+          "Mass": 10900
+        },
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 10,
+          "Mass": 10900
+        },
+        {
+          "EnemyId": "enemy_seagullcar3",
+          "Count": 10,
+          "Mass": 10900
+        },
+        {
+          "EnemyId": "enemy_shark3",
+          "Count": 10,
+          "Mass": 10900
+        }
+      ]
+    },
+    {
+      "WaveNumber": 150,
+      "WaveType": "Boss",
+      "BossTier": 1,
+      "SpawnWindowSeconds": 20,
+      "NextWaveDelaySeconds": 30,
+      "Entries": [
+        {
+          "EnemyId": "enemy_shrimp3",
+          "Count": 1,
+          "Mass": 300000
+        }
+      ]
+    }
+  ]
+}
