@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "Enabled": true,
+  "Slots": {
+    "Left": {
+      "DefaultLevel": 1,
+      "RequiresUnlock": false,
+      "IncludeInBoost": true
+    },
+    "Right": {
+      "DefaultLevel": 1,
+      "RequiresUnlock": true,
+      "IncludeInBoostWhenLocked": false,
+      "IncludeInBoostWhenUnlocked": true
+    }
+  },
+  "Leveling": {
+    "MaxLevel": 80,
+    "LevelsPerModelTier": 10,
+    "BoostPercentPerLevel": 5,
+    "BoostStackRule": "Sum",
+    "SoftUpgradeLevelsPerPurchase": 1,
+    "SoftUpgradeCostCurve": {
+      "BaseCost": 10000,
+      "Growth": 1.25,
+      "RoundTo": 1000
+    },
+    "SkipPurchases": [
+      {
+        "Id": "Skip1",
+        "Levels": 1
+      },
+      {
+        "Id": "Skip10",
+        "Levels": 10
+      }
+    ]
+  },
+  "ModelTiers": [
+    {
+      "Tier": 1,
+      "WeaponId": "Weapon_Strawberry",
+      "ScaleMin": 1,
+      "ScaleMax": 1.5
+    },
+    {
+      "Tier": 2,
+      "WeaponId": "Weapon_Limon",
+      "ScaleMin": 1.5,
+      "ScaleMax": 2
+    },
+    {
+      "Tier": 3,
+      "WeaponId": "Weapon_Cherry",
+      "ScaleMin": 2,
+      "ScaleMax": 2.5
+    },
+    {
+      "Tier": 4,
+      "WeaponId": "Weapon_Mango",
+      "ScaleMin": 2.5,
+      "ScaleMax": 3
+    },
+    {
+      "Tier": 5,
+      "WeaponId": "Weapon_Grape",
+      "ScaleMin": 3,
+      "ScaleMax": 3.5
+    },
+    {
+      "Tier": 6,
+      "WeaponId": "Weapon_Watermelon",
+      "ScaleMin": 3.5,
+      "ScaleMax": 4
+    },
+    {
+      "Tier": 7,
+      "WeaponId": "Weapon_Banana",
+      "ScaleMin": 4,
+      "ScaleMax": 4.5
+    },
+    {
+      "Tier": 8,
+      "WeaponId": "Weapon_Apple",
+      "ScaleMin": 4.5,
+      "ScaleMax": 5
+    }
+  ]
+}
