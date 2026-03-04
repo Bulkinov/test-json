@@ -15,14 +15,14 @@
     }
   },
   "Leveling": {
-    "MaxLevel": 80,
+    "MaxLevel": 1000,
     "LevelsPerModelTier": 10,
     "BoostPercentPerLevel": 5,
     "BoostStackRule": "Sum",
     "SoftUpgradeLevelsPerPurchase": 1,
     "SoftUpgradeCostCurve": {
-      "BaseCost": 10000,
-      "Growth": 1.25,
+      "BaseCost": 1000,
+      "Growth": 1.35,
       "RoundTo": 1000
     },
     "SkipPurchases": [
