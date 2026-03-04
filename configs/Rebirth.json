@@ -1,0 +1,414 @@
+{
+  "Version": 1,
+  "Levels": [
+    {
+      "TargetRebirth": 0,
+      "Requirements": [],
+      "Rewards": [],
+      "FruitZonesUnlocked": 1,
+      "StartWaveFrom": 1,
+      "BaseFloorUnlocked": 1,
+      "BaseHp": 2,
+      "MaxClustersTotal": 2
+    },
+    {
+      "TargetRebirth": 1,
+      "Requirements": [
+        {
+          "Kind": "Gold",
+          "Amount": 1000
+        },
+        {
+          "Kind": "WaveRecord",
+          "Amount": 5
+        },
+        {
+          "Kind": "WeaponStars",
+          "WeaponId": "Weapon_Strawberry",
+          "Stars": 1
+        }
+      ],
+      "Rewards": [
+        {
+          "Kind": "UnlockWeapon",
+          "WeaponId": "Weapon_Strawberry"
+        },
+        {
+          "Kind": "BatBonusPerHit",
+          "Amount": 15
+        },
+        {
+          "Kind": "Gold",
+          "Amount": 25000
+        },
+        {
+          "Kind": "IncomeMultiplierPercent",
+          "Percent": 15
+        },
+        {
+          "Kind": "CharacterWalkSpeed",
+          "Percent": 10
+        }
+      ],
+      "FruitZonesUnlocked": 1,
+      "StartWaveFrom": 6,
+      "BaseFloorUnlocked": 1,
+      "BaseHp": 4,
+      "MaxClustersTotal": 3
+    },
+    {
+      "TargetRebirth": 2,
+      "Requirements": [
+        {
+          "Kind": "Gold",
+          "Amount": 10000
+        },
+        {
+          "Kind": "WaveRecord",
+          "Amount": 10
+        }
+      ],
+      "Rewards": [
+        {
+          "Kind": "UnlockWeapon",
+          "WeaponId": "Weapon_Limon"
+        },
+        {
+          "Kind": "UnlockWeapon",
+          "WeaponId": "Weapon_Cherry"
+        },
+        {
+          "Kind": "BatBonusPerHit",
+          "Amount": 25
+        },
+        {
+          "Kind": "IncomeMultiplierPercent",
+          "Percent": 30
+        },
+        {
+          "Kind": "Gold",
+          "Amount": 25000
+        },
+        {
+          "Kind": "CharacterWalkSpeed",
+          "Percent": 10
+        }
+      ],
+      "FruitZonesUnlocked": 1,
+      "StartWaveFrom": 6,
+      "BaseFloorUnlocked": 1,
+      "BaseHp": 6,
+      "MaxClustersTotal": 4
+    },
+    {
+      "TargetRebirth": 3,
+      "Requirements": [
+        {
+          "Kind": "Gold",
+          "Amount": 100000
+        },
+        {
+          "Kind": "WaveRecord",
+          "Amount": 30
+        }
+      ],
+      "Rewards": [
+        {
+          "Kind": "UnlockWeapon",
+          "WeaponId": "Weapon_Mango"
+        },
+        {
+          "Kind": "BatBonusPerHit",
+          "Amount": 50
+        },
+        {
+          "Kind": "IncomeMultiplierPercent",
+          "Percent": 100
+        },
+        {
+          "Kind": "Gold",
+          "Amount": 25000
+        },
+        {
+          "Kind": "CharacterWalkSpeed",
+          "Percent": 10
+        }
+      ],
+      "FruitZonesUnlocked": 1,
+      "StartWaveFrom": 6,
+      "BaseFloorUnlocked": 1,
+      "BaseHp": 8,
+      "MaxClustersTotal": 5
+    },
+    {
+      "TargetRebirth": 4,
+      "Requirements": [
+        {
+          "Kind": "Gold",
+          "Amount": 1000000
+        },
+        {
+          "Kind": "WaveRecord",
+          "Amount": 60
+        }
+      ],
+      "Rewards": [
+        {
+          "Kind": "UnlockWeapon",
+          "WeaponId": "Weapon_Grape"
+        },
+        {
+          "Kind": "BatBonusPerHit",
+          "Amount": 100
+        },
+        {
+          "Kind": "IncomeMultiplierPercent",
+          "Percent": 150
+        },
+        {
+          "Kind": "Gold",
+          "Amount": 25000
+        },
+        {
+          "Kind": "CharacterWalkSpeed",
+          "Percent": 15
+        }
+      ],
+      "FruitZonesUnlocked": 1,
+      "StartWaveFrom": 6,
+      "BaseFloorUnlocked": 1,
+      "BaseHp": 10,
+      "MaxClustersTotal": 6
+    },
+    {
+      "TargetRebirth": 5,
+      "Requirements": [
+        {
+          "Kind": "Gold",
+          "Amount": 10000000
+        },
+        {
+          "Kind": "WaveRecord",
+          "Amount": 90
+        }
+      ],
+      "Rewards": [
+        {
+          "Kind": "UnlockWeapon",
+          "WeaponId": "Weapon_Watermelon"
+        },
+        {
+          "Kind": "BatBonusPerHit",
+          "Amount": 250
+        },
+        {
+          "Kind": "IncomeMultiplierPercent",
+          "Percent": 200
+        },
+        {
+          "Kind": "Gold",
+          "Amount": 25000
+        },
+        {
+          "Kind": "CharacterWalkSpeed",
+          "Percent": 15
+        }
+      ],
+      "FruitZonesUnlocked": 1,
+      "StartWaveFrom": 6,
+      "BaseFloorUnlocked": 1,
+      "BaseHp": 12,
+      "MaxClustersTotal": 7
+    },
+    {
+      "TargetRebirth": 6,
+      "Requirements": [
+        {
+          "Kind": "Gold",
+          "Amount": 100000000
+        },
+        {
+          "Kind": "WaveRecord",
+          "Amount": 150
+        }
+      ],
+      "Rewards": [
+        {
+          "Kind": "UnlockWeapon",
+          "WeaponId": "Weapon_Banana"
+        },
+        {
+          "Kind": "BatBonusPerHit",
+          "Amount": 500
+        },
+        {
+          "Kind": "IncomeMultiplierPercent",
+          "Percent": 250
+        },
+        {
+          "Kind": "Gold",
+          "Amount": 25000
+        },
+        {
+          "Kind": "CharacterWalkSpeed",
+          "Percent": 15
+        }
+      ],
+      "FruitZonesUnlocked": 1,
+      "StartWaveFrom": 6,
+      "BaseFloorUnlocked": 1,
+      "BaseHp": 14,
+      "MaxClustersTotal": 8
+    },
+    {
+      "TargetRebirth": 7,
+      "Requirements": [
+        {
+          "Kind": "Gold",
+          "Amount": 1000000000
+        },
+        {
+          "Kind": "WaveRecord",
+          "Amount": 210
+        }
+      ],
+      "Rewards": [
+        {
+          "Kind": "BatBonusPerHit",
+          "Amount": 1000
+        },
+        {
+          "Kind": "IncomeMultiplierPercent",
+          "Percent": 300
+        },
+        {
+          "Kind": "Gold",
+          "Amount": 25000
+        },
+        {
+          "Kind": "CharacterWalkSpeed",
+          "Percent": 20
+        }
+      ],
+      "FruitZonesUnlocked": 1,
+      "StartWaveFrom": 11,
+      "BaseFloorUnlocked": 1,
+      "BaseHp": 16,
+      "MaxClustersTotal": 9
+    },
+    {
+      "TargetRebirth": 8,
+      "Requirements": [
+        {
+          "Kind": "Gold",
+          "Amount": 10000000000
+        },
+        {
+          "Kind": "WaveRecord",
+          "Amount": 300
+        }
+      ],
+      "Rewards": [
+        {
+          "Kind": "BatBonusPerHit",
+          "Amount": 2500
+        },
+        {
+          "Kind": "IncomeMultiplierPercent",
+          "Percent": 350
+        },
+        {
+          "Kind": "Gold",
+          "Amount": 25000
+        }
+      ],
+      "FruitZonesUnlocked": 1,
+      "StartWaveFrom": 16,
+      "BaseFloorUnlocked": 1,
+      "BaseHp": 18,
+      "MaxClustersTotal": 10
+    },
+    {
+      "TargetRebirth": 9,
+      "Requirements": [
+        {
+          "Kind": "Gold",
+          "Amount": 100000000000
+        },
+        {
+          "Kind": "WaveRecord",
+          "Amount": 420
+        }
+      ],
+      "Rewards": [
+        {
+          "Kind": "BatBonusPerHit",
+          "Amount": 5000
+        },
+        {
+          "Kind": "IncomeMultiplierPercent",
+          "Percent": 400
+        },
+        {
+          "Kind": "Gold",
+          "Amount": 25000
+        },
+        {
+          "Kind": "CharacterWalkSpeed",
+          "Percent": 20
+        }
+      ],
+      "FruitZonesUnlocked": 1,
+      "StartWaveFrom": 21,
+      "BaseFloorUnlocked": 1,
+      "BaseHp": 20,
+      "MaxClustersTotal": 11
+    },
+    {
+      "TargetRebirth": 10,
+      "Requirements": [
+        {
+          "Kind": "Gold",
+          "Amount": 1000000000000
+        },
+        {
+          "Kind": "WaveRecord",
+          "Amount": 540
+        }
+      ],
+      "Rewards": [
+        {
+          "Kind": "BatBonusPerHit",
+          "Amount": 10000
+        },
+        {
+          "Kind": "IncomeMultiplierPercent",
+          "Percent": 450
+        },
+        {
+          "Kind": "Gold",
+          "Amount": 25000
+        },
+        {
+          "Kind": "CharacterWalkSpeed",
+          "Percent": 20
+        }
+      ],
+      "FruitZonesUnlocked": 1,
+      "StartWaveFrom": 26,
+      "BaseFloorUnlocked": 1,
+      "BaseHp": 22,
+      "MaxClustersTotal": 12
+    },
+    {
+      "TargetRebirth": 11,
+      "Requirements": [],
+      "Rewards": [],
+      "FruitZonesUnlocked": 1,
+      "StartWaveFrom": 31,
+      "BaseFloorUnlocked": 1,
+      "BaseHp": 24,
+      "MaxClustersTotal": 14
+    }
+  ]
+}
