@@ -232,6 +232,12 @@
       "WaveType": "MiniBoss",
       "SpawnWindowSeconds": 2,
       "NextWaveDelaySeconds": 50,
+      "Rewards": {
+        "OneTimeReward": true,
+        "Gold": 10000,
+        "Buckets": [],
+        "Weapons": []
+      },
       "Entries": [
         {
           "EnemyId": "enemy_shrimp3",
@@ -268,16 +274,6 @@
       "WaveType": "Normal",
       "SpawnWindowSeconds": 20,
       "NextWaveDelaySeconds": 15,
-      "Rewards": {
-        "OneTimeReward": true,
-        "Buckets": [],
-        "Weapons": [
-          {
-            "WeaponId": "Weapon_Cherry",
-            "Count": 1
-          }
-        ]
-      },
       "Entries": [
         {
           "EnemyId": "enemy_crocodile",
@@ -314,16 +310,6 @@
       "WaveType": "Normal",
       "SpawnWindowSeconds": 20,
       "NextWaveDelaySeconds": 30,
-      "Rewards": {
-        "OneTimeReward": true,
-        "Buckets": [],
-        "Weapons": [
-          {
-            "WeaponId": "Weapon_Cherry",
-            "Count": 1
-          }
-        ]
-      },
       "Entries": [
         {
           "EnemyId": "enemy_crocodile",
@@ -383,16 +369,6 @@
       "WaveType": "Normal",
       "SpawnWindowSeconds": 20,
       "NextWaveDelaySeconds": 10,
-      "Rewards": {
-        "OneTimeReward": true,
-        "Buckets": [],
-        "Weapons": [
-          {
-            "WeaponId": "Weapon_Mango",
-            "Count": 1
-          }
-        ]
-      },
       "Entries": [
         {
           "EnemyId": "enemy_pork",
@@ -429,16 +405,6 @@
       "WaveType": "Normal",
       "SpawnWindowSeconds": 20,
       "NextWaveDelaySeconds": 40,
-      "Rewards": {
-        "OneTimeReward": true,
-        "Buckets": [],
-        "Weapons": [
-          {
-            "WeaponId": "Weapon_Mango",
-            "Count": 1
-          }
-        ]
-      },
       "Entries": [
         {
           "EnemyId": "enemy_pork",
@@ -454,12 +420,8 @@
       "NextWaveDelaySeconds": 30,
       "Rewards": {
         "OneTimeReward": true,
-        "Buckets": [
-          {
-            "BucketId": "WaterBucket_T4",
-            "Count": 1
-          }
-        ],
+        "Gold": 25000,
+        "Buckets": [],
         "Weapons": []
       },
       "Entries": [
@@ -500,13 +462,13 @@
       "NextWaveDelaySeconds": 9,
       "Rewards": {
         "OneTimeReward": true,
-        "Buckets": [],
-        "Weapons": [
+        "Buckets": [
           {
-            "WeaponId": "Weapon_Grape",
+            "BucketId": "WaterBucket_T4",
             "Count": 1
           }
-        ]
+        ],
+        "Weapons": []
       },
       "Entries": [
         {
@@ -544,16 +506,6 @@
       "WaveType": "Normal",
       "SpawnWindowSeconds": 20,
       "NextWaveDelaySeconds": 30,
-      "Rewards": {
-        "OneTimeReward": true,
-        "Buckets": [],
-        "Weapons": [
-          {
-            "WeaponId": "Weapon_Grape",
-            "Count": 1
-          }
-        ]
-      },
       "Entries": [
         {
           "EnemyId": "enemy_shark",
@@ -618,16 +570,6 @@
       "WaveType": "Normal",
       "SpawnWindowSeconds": 20,
       "NextWaveDelaySeconds": 8,
-      "Rewards": {
-        "OneTimeReward": true,
-        "Buckets": [],
-        "Weapons": [
-          {
-            "WeaponId": "Weapon_Watermelon",
-            "Count": 1
-          }
-        ]
-      },
       "Entries": [
         {
           "EnemyId": "enemy_crocodile3",
@@ -646,16 +588,6 @@
       "WaveType": "Normal",
       "SpawnWindowSeconds": 20,
       "NextWaveDelaySeconds": 8,
-      "Rewards": {
-        "OneTimeReward": true,
-        "Buckets": [],
-        "Weapons": [
-          {
-            "WeaponId": "Weapon_Watermelon",
-            "Count": 1
-          }
-        ]
-      },
       "Entries": [
         {
           "EnemyId": "enemy_crocodile3",
@@ -705,12 +637,8 @@
       "NextWaveDelaySeconds": 30,
       "Rewards": {
         "OneTimeReward": true,
-        "Buckets": [
-          {
-            "BucketId": "WaterBucket_T4",
-            "Count": 1
-          }
-        ],
+        "Gold": 25000,
+        "Buckets": [],
         "Weapons": []
       },
       "Entries": [
@@ -756,13 +684,13 @@
       "NextWaveDelaySeconds": 30,
       "Rewards": {
         "OneTimeReward": true,
-        "Buckets": [],
-        "Weapons": [
+        "Buckets": [
           {
-            "WeaponId": "Weapon_Banana",
+            "BucketId": "WaterBucket_T4",
             "Count": 1
           }
-        ]
+        ],
+        "Weapons": []
       },
       "Entries": [
         {
@@ -810,16 +738,6 @@
       "WaveType": "Normal",
       "SpawnWindowSeconds": 20,
       "NextWaveDelaySeconds": 30,
-      "Rewards": {
-        "OneTimeReward": true,
-        "Buckets": [],
-        "Weapons": [
-          {
-            "WeaponId": "Weapon_Banana",
-            "Count": 1
-          }
-        ]
-      },
       "Entries": [
         {
           "EnemyId": "enemy_crocodile3",
@@ -861,16 +779,6 @@
       "WaveType": "Normal",
       "SpawnWindowSeconds": 20,
       "NextWaveDelaySeconds": 30,
-      "Rewards": {
-        "OneTimeReward": true,
-        "Buckets": [],
-        "Weapons": [
-          {
-            "WeaponId": "Weapon_Banana",
-            "Count": 1
-          }
-        ]
-      },
       "Entries": [
         {
           "EnemyId": "enemy_crocodile3",
