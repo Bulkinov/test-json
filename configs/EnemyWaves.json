@@ -10,6 +10,7 @@
       "SpawnWindowSeconds": 10,
       "NextWaveDelaySeconds": 10,
       "Rewards": {
+        "OneTimeReward": true,
         "Buckets": [],
         "Weapons": [
           {
@@ -32,6 +33,7 @@
       "SpawnWindowSeconds": 5,
       "NextWaveDelaySeconds": 10,
       "Rewards": {
+        "OneTimeReward": true,
         "Buckets": [],
         "Weapons": [
           {
@@ -54,6 +56,7 @@
       "SpawnWindowSeconds": 7,
       "NextWaveDelaySeconds": 10,
       "Rewards": {
+        "OneTimeReward": true,
         "Buckets": [],
         "Weapons": [
           {
@@ -76,6 +79,7 @@
       "SpawnWindowSeconds": 10,
       "NextWaveDelaySeconds": 20,
       "Rewards": {
+        "OneTimeReward": true,
         "Buckets": [],
         "Weapons": [
           {
@@ -334,6 +338,7 @@
       "SpawnWindowSeconds": 2,
       "NextWaveDelaySeconds": 30,
       "Rewards": {
+        "OneTimeReward": true,
         "Buckets": [
           {
             "BucketId": "WaterBucket_T4",
@@ -346,7 +351,7 @@
         {
           "EnemyId": "enemy_crocodile3",
           "Count": 1,
-          "Mass": 100
+          "Mass": 90
         }
       ]
     },
@@ -448,6 +453,7 @@
       "SpawnWindowSeconds": 2,
       "NextWaveDelaySeconds": 30,
       "Rewards": {
+        "OneTimeReward": true,
         "Buckets": [
           {
             "BucketId": "WaterBucket_T4",
@@ -562,6 +568,7 @@
       "SpawnWindowSeconds": 2,
       "NextWaveDelaySeconds": 30,
       "Rewards": {
+        "OneTimeReward": true,
         "Buckets": [
           {
             "BucketId": "WaterBucket_T4",
@@ -697,6 +704,7 @@
       "SpawnWindowSeconds": 2,
       "NextWaveDelaySeconds": 30,
       "Rewards": {
+        "OneTimeReward": true,
         "Buckets": [
           {
             "BucketId": "WaterBucket_T4",
@@ -831,6 +839,7 @@
       "SpawnWindowSeconds": 2,
       "NextWaveDelaySeconds": 30,
       "Rewards": {
+        "OneTimeReward": true,
         "Buckets": [
           {
             "BucketId": "WaterBucket_T4",
