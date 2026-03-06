@@ -20,7 +20,7 @@
         },
         {
           "Kind": "WaveRecord",
-          "Amount": 5
+          "Amount": 10
         },
         {
           "Kind": "WeaponStars",
@@ -34,12 +34,16 @@
           "WeaponId": "Weapon_Strawberry"
         },
         {
-          "Kind": "BatBonusPerHit",
-          "Amount": 15
+          "Kind": "UnlockWeapon",
+          "WeaponId": "Weapon_Limon"
         },
         {
-          "Kind": "Gold",
-          "Amount": 25000
+          "Kind": "UnlockWeapon",
+          "WeaponId": "Weapon_Cherry"
+        },
+        {
+          "Kind": "BatBonusPerHit",
+          "Amount": 15
         },
         {
           "Kind": "IncomeMultiplierPercent",
@@ -65,18 +69,10 @@
         },
         {
           "Kind": "WaveRecord",
-          "Amount": 10
+          "Amount": 30
         }
       ],
       "Rewards": [
-        {
-          "Kind": "UnlockWeapon",
-          "WeaponId": "Weapon_Limon"
-        },
-        {
-          "Kind": "UnlockWeapon",
-          "WeaponId": "Weapon_Cherry"
-        },
         {
           "Kind": "BatBonusPerHit",
           "Amount": 25
@@ -84,10 +80,6 @@
         {
           "Kind": "IncomeMultiplierPercent",
           "Percent": 30
-        },
-        {
-          "Kind": "Gold",
-          "Amount": 25000
         },
         {
           "Kind": "CharacterWalkSpeed",
@@ -109,7 +101,7 @@
         },
         {
           "Kind": "WaveRecord",
-          "Amount": 30
+          "Amount": 60
         }
       ],
       "Rewards": [
@@ -124,10 +116,6 @@
         {
           "Kind": "IncomeMultiplierPercent",
           "Percent": 100
-        },
-        {
-          "Kind": "Gold",
-          "Amount": 25000
         },
         {
           "Kind": "CharacterWalkSpeed",
@@ -149,7 +137,7 @@
         },
         {
           "Kind": "WaveRecord",
-          "Amount": 60
+          "Amount": 90
         }
       ],
       "Rewards": [
@@ -164,10 +152,6 @@
         {
           "Kind": "IncomeMultiplierPercent",
           "Percent": 150
-        },
-        {
-          "Kind": "Gold",
-          "Amount": 25000
         },
         {
           "Kind": "CharacterWalkSpeed",
@@ -189,7 +173,7 @@
         },
         {
           "Kind": "WaveRecord",
-          "Amount": 90
+          "Amount": 150
         }
       ],
       "Rewards": [
@@ -204,10 +188,6 @@
         {
           "Kind": "IncomeMultiplierPercent",
           "Percent": 200
-        },
-        {
-          "Kind": "Gold",
-          "Amount": 25000
         },
         {
           "Kind": "CharacterWalkSpeed",
@@ -229,7 +209,7 @@
         },
         {
           "Kind": "WaveRecord",
-          "Amount": 150
+          "Amount": 210
         }
       ],
       "Rewards": [
@@ -244,10 +224,6 @@
         {
           "Kind": "IncomeMultiplierPercent",
           "Percent": 250
-        },
-        {
-          "Kind": "Gold",
-          "Amount": 25000
         },
         {
           "Kind": "CharacterWalkSpeed",
@@ -269,7 +245,7 @@
         },
         {
           "Kind": "WaveRecord",
-          "Amount": 210
+          "Amount": 300
         }
       ],
       "Rewards": [
@@ -280,10 +256,6 @@
         {
           "Kind": "IncomeMultiplierPercent",
           "Percent": 300
-        },
-        {
-          "Kind": "Gold",
-          "Amount": 25000
         },
         {
           "Kind": "CharacterWalkSpeed",
@@ -305,7 +277,7 @@
         },
         {
           "Kind": "WaveRecord",
-          "Amount": 300
+          "Amount": 420
         }
       ],
       "Rewards": [
@@ -316,10 +288,6 @@
         {
           "Kind": "IncomeMultiplierPercent",
           "Percent": 350
-        },
-        {
-          "Kind": "Gold",
-          "Amount": 25000
         }
       ],
       "FruitZonesUnlocked": 1,
@@ -337,7 +305,7 @@
         },
         {
           "Kind": "WaveRecord",
-          "Amount": 420
+          "Amount": 540
         }
       ],
       "Rewards": [
@@ -348,10 +316,6 @@
         {
           "Kind": "IncomeMultiplierPercent",
           "Percent": 400
-        },
-        {
-          "Kind": "Gold",
-          "Amount": 25000
         },
         {
           "Kind": "CharacterWalkSpeed",
@@ -373,7 +337,7 @@
         },
         {
           "Kind": "WaveRecord",
-          "Amount": 540
+          "Amount": 650
         }
       ],
       "Rewards": [
@@ -384,10 +348,6 @@
         {
           "Kind": "IncomeMultiplierPercent",
           "Percent": 450
-        },
-        {
-          "Kind": "Gold",
-          "Amount": 25000
         },
         {
           "Kind": "CharacterWalkSpeed",
