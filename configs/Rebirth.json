@@ -8,7 +8,7 @@
       "FruitZonesUnlocked": 1,
       "StartWaveFrom": 1,
       "BaseFloorUnlocked": 1,
-      "BaseHp": 2,
+      "BaseHp": 4,
       "MaxClustersTotal": 2
     },
     {
@@ -57,7 +57,7 @@
       "FruitZonesUnlocked": 1,
       "StartWaveFrom": 6,
       "BaseFloorUnlocked": 1,
-      "BaseHp": 4,
+      "BaseHp": 6,
       "MaxClustersTotal": 3
     },
     {
@@ -89,7 +89,7 @@
       "FruitZonesUnlocked": 1,
       "StartWaveFrom": 6,
       "BaseFloorUnlocked": 1,
-      "BaseHp": 6,
+      "BaseHp": 8,
       "MaxClustersTotal": 4
     },
     {
@@ -125,7 +125,7 @@
       "FruitZonesUnlocked": 1,
       "StartWaveFrom": 6,
       "BaseFloorUnlocked": 1,
-      "BaseHp": 8,
+      "BaseHp": 10,
       "MaxClustersTotal": 5
     },
     {
@@ -161,7 +161,7 @@
       "FruitZonesUnlocked": 1,
       "StartWaveFrom": 6,
       "BaseFloorUnlocked": 1,
-      "BaseHp": 10,
+      "BaseHp": 12,
       "MaxClustersTotal": 6
     },
     {
@@ -197,7 +197,7 @@
       "FruitZonesUnlocked": 1,
       "StartWaveFrom": 6,
       "BaseFloorUnlocked": 1,
-      "BaseHp": 12,
+      "BaseHp": 15,
       "MaxClustersTotal": 7
     },
     {
@@ -233,7 +233,7 @@
       "FruitZonesUnlocked": 1,
       "StartWaveFrom": 6,
       "BaseFloorUnlocked": 1,
-      "BaseHp": 14,
+      "BaseHp": 18,
       "MaxClustersTotal": 8
     },
     {
@@ -265,7 +265,7 @@
       "FruitZonesUnlocked": 1,
       "StartWaveFrom": 11,
       "BaseFloorUnlocked": 1,
-      "BaseHp": 16,
+      "BaseHp": 20,
       "MaxClustersTotal": 9
     },
     {
@@ -293,7 +293,7 @@
       "FruitZonesUnlocked": 1,
       "StartWaveFrom": 16,
       "BaseFloorUnlocked": 1,
-      "BaseHp": 18,
+      "BaseHp": 22,
       "MaxClustersTotal": 10
     },
     {
@@ -325,7 +325,7 @@
       "FruitZonesUnlocked": 1,
       "StartWaveFrom": 21,
       "BaseFloorUnlocked": 1,
-      "BaseHp": 20,
+      "BaseHp": 24,
       "MaxClustersTotal": 11
     },
     {
@@ -357,7 +357,7 @@
       "FruitZonesUnlocked": 1,
       "StartWaveFrom": 26,
       "BaseFloorUnlocked": 1,
-      "BaseHp": 22,
+      "BaseHp": 27,
       "MaxClustersTotal": 12
     },
     {
@@ -367,7 +367,7 @@
       "FruitZonesUnlocked": 1,
       "StartWaveFrom": 31,
       "BaseFloorUnlocked": 1,
-      "BaseHp": 24,
+      "BaseHp": 30,
       "MaxClustersTotal": 14
     }
   ]
