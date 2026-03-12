@@ -43,7 +43,7 @@
         },
         {
           "Kind": "BatBonusPerHit",
-          "Amount": 15
+          "Amount": 25
         },
         {
           "Kind": "IncomeMultiplierPercent",
@@ -75,7 +75,7 @@
       "Rewards": [
         {
           "Kind": "BatBonusPerHit",
-          "Amount": 25
+          "Amount": 50
         },
         {
           "Kind": "IncomeMultiplierPercent",
@@ -111,7 +111,7 @@
         },
         {
           "Kind": "BatBonusPerHit",
-          "Amount": 50
+          "Amount": 100
         },
         {
           "Kind": "IncomeMultiplierPercent",
@@ -147,7 +147,7 @@
         },
         {
           "Kind": "BatBonusPerHit",
-          "Amount": 100
+          "Amount": 250
         },
         {
           "Kind": "IncomeMultiplierPercent",
@@ -183,7 +183,7 @@
         },
         {
           "Kind": "BatBonusPerHit",
-          "Amount": 250
+          "Amount": 500
         },
         {
           "Kind": "IncomeMultiplierPercent",
@@ -219,7 +219,7 @@
         },
         {
           "Kind": "BatBonusPerHit",
-          "Amount": 500
+          "Amount": 1000
         },
         {
           "Kind": "IncomeMultiplierPercent",
@@ -251,7 +251,7 @@
       "Rewards": [
         {
           "Kind": "BatBonusPerHit",
-          "Amount": 1000
+          "Amount": 2500
         },
         {
           "Kind": "IncomeMultiplierPercent",
@@ -283,7 +283,7 @@
       "Rewards": [
         {
           "Kind": "BatBonusPerHit",
-          "Amount": 2500
+          "Amount": 5000
         },
         {
           "Kind": "IncomeMultiplierPercent",
@@ -311,7 +311,7 @@
       "Rewards": [
         {
           "Kind": "BatBonusPerHit",
-          "Amount": 5000
+          "Amount": 10000
         },
         {
           "Kind": "IncomeMultiplierPercent",
@@ -343,7 +343,7 @@
       "Rewards": [
         {
           "Kind": "BatBonusPerHit",
-          "Amount": 10000
+          "Amount": 100000
         },
         {
           "Kind": "IncomeMultiplierPercent",
@@ -359,16 +359,6 @@
       "BaseFloorUnlocked": 1,
       "BaseHp": 27,
       "MaxClustersTotal": 12
-    },
-    {
-      "TargetRebirth": 11,
-      "Requirements": [],
-      "Rewards": [],
-      "FruitZonesUnlocked": 1,
-      "StartWaveFrom": 31,
-      "BaseFloorUnlocked": 1,
-      "BaseHp": 30,
-      "MaxClustersTotal": 14
     }
   ]
 }
